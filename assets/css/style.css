@@ -34,7 +34,7 @@
 
 body {
     color: black;
-    background-image: url(images/dust_scratches.png);
+    /* background-image: url(assets/images/dust_scratches.png); */
     height: 100%;
     margin: 0;
     overflow-y: scroll;
@@ -42,11 +42,16 @@ body {
 }
 
 header {
+    position: fixed;
+    top: 0;
     width: 100%;
     background-color: white;
     border-bottom: 1px solid grey;    
-    height: 90px; 
+    height: 90px;
+    z-index: 5; 
 }
+
+
 
 navbar.navbar-expand-lg.navbar-light.bg-light {
     width: 960px;
@@ -103,7 +108,7 @@ navbar.navbar-expand-lg.navbar-light.bg-light {
     line-height: 1.5;
  }
 
-.contact {
+.h2-color {
     color:#4aaaa5;
     margin-left: 10px;
     margin-right: 20px;
@@ -118,6 +123,14 @@ navbar.navbar-expand-lg.navbar-light.bg-light {
 
 .mainContentWrap {
     margin: 30px 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+.nav-link {
+    cursor: pointer;
 }
 
 /* ------------------------------------------------------ABout Me------------------------------------------------- */
@@ -195,7 +208,7 @@ navbar.navbar-expand-lg.navbar-light.bg-light {
 
 .footerAll {
     background-color: #666666;
-    height: 58px;
+    height: 118px;
     border-top: 10px solid #4aaaa5;
     text-align: center;
     color: white;
@@ -204,12 +217,12 @@ navbar.navbar-expand-lg.navbar-light.bg-light {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 12px;    
 }
-
+/* 
 .footer {    
     bottom: 0;
     position: fixed;
     width: 100%;
-}
+} */
 
 /* ----------------------------------------------------------Media-------------------------------------------------- */
 
@@ -247,3 +260,4 @@ navbar.navbar-expand-lg.navbar-light.bg-light {
         padding-left: 5px;  
     }   
 }
+

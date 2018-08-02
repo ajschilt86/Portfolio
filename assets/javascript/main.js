@@ -13,11 +13,19 @@ $(document).keydown(function (e) {
     $(".modal").hide();
   });
 
-  $("body").on("click", function (event) {
-    $(".modal").hide();
+  $("body").on("click", ".nav-button", function () {
+    $(".modal").show();
+    $(".modal-text").append("<div><a href='#aboutMe'>About Me</a></div>");
+    $(".modal-text").append("<div><a href='#projects'>Projects</a></div>");
+    $(".modal-text").append("<div><a href='#contact'>Contact</a></div>");
   });
 
-  $(".nav-link").on("click", function (event) {
-    $(".modal").show();
-    $(".modal-text").text("Train Name was left blank");
-  });
+
+
+
+  
+
+  $(".modal").show();
+  $(".modal-text").append("<div><a href='#aboutMe'>About Me</a></div>");
+  $(".modal-text").append("<div><a href='#projects'>Projects</a></div>");
+  $(".modal-text").append("<div><a href='#contact'>Contact</a></div>");
