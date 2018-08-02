@@ -47,8 +47,9 @@ body {
 }
 
 header {
-    position: relative;    
+    position: absolute;    
     left: 20.9%;
+    top: 5%;
     width: 58.3%;
     /* background-color: white;
     border: 1px solid grey;
@@ -68,14 +69,13 @@ header {
 } */
 
 .navbar-brand {
-    position: relative;
+    position: absolute;
     top: -10px;
-    left: 36.5%;
-    color: white;
+    left: 39.5%;
     padding: 20px 5px 15px 5px;
     font-family: 'Patrick Hand', cursive;
-    width: 280px;
-    height: 90px;
+  
+    
     /* float: left; */
     animation: bounceIn 2s;
 }
@@ -149,7 +149,7 @@ button {
 .aboutMe-container {
     border: .1px solid;
     border-radius: 43px;
-    margin-top: 170px;
+    margin-top: 200px;
     /* background-color: #96E072; */
 }
 .aboutImage {
@@ -247,7 +247,7 @@ button {
 
 /* ----------------------------------------------------------Media-------------------------------------------------- */
 
-@media screen and (max-width: 990px)  {
+/* @media screen and (max-width: 990px)  {
     .navbar ul {
         background-color: white;
         width: 80px;
@@ -259,27 +259,19 @@ button {
         position: relative;
         right: -90%;
     }
-}        
+}         */
 
 @media screen and (max-width: 440px)  {
 
-    header {
+    .navbar-brand h1 {
         position: relative;
-        left: 2.9%;
-        width: 94.3%;        
-        height: 180px;
+        left: -40%;
     }
-    
-    .navbar-nav {        
-        position: relative;
-        left: 0;
-    }
-
-    .navbar ul {
-        background-color: white;
-        width: 80px;
-        z-index: 1;
-        padding-left: 5px;  
-    }   
+    .nav-link {
+        position: absolute;
+        left: 28%;
+        bottom: 7%;
+        cursor: pointer;
+    } 
 }
 
