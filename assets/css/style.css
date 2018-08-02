@@ -153,6 +153,13 @@ button {
     transform: translate(10%);
 }
 
+/* .porfolio-detailWrap {
+    border: 1px solid black;
+    padding-top: 53px;
+    margin-bottom: 25px;
+    max-width: 80%;
+} */
+
 .img1 { 
     position: relative;
     height: 200px;
