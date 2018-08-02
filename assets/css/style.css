@@ -33,9 +33,6 @@
     top: 36%;
 }
 
-
-
-
 body {
     color: black;
     /* background-image: url(assets/images/dust_scratches.png); */
@@ -58,31 +55,18 @@ header {
     z-index: 2; 
 }
 
-/* .navbar .navbar-expand-lg .navbar-light {
-    text-align: center;
-} */
-
-/* navbar.navbar-expand-lg.navbar-light.bg-light {
-    width: 960px;
-    max-width: 960px;
-    margin: auto; 
-} */
-
 .navbar-brand {
     position: absolute;
     top: -10px;
-    left: 39.5%;
-    padding: 20px 5px 15px 5px;
-    font-family: 'Patrick Hand', cursive;
-  
-    
-    /* float: left; */
+    left: 34.5%;    
+    font-family: 'Patrick Hand', cursive;  
     animation: bounceIn 2s;
 }
 
 .navbar-brand h1 {
     color: black;
     text-align: center;
+    font-size: 60px;
 }
 
 @keyframes bounceIn {
@@ -98,12 +82,6 @@ header {
       transform: scale(1);
     }
   }
-
-/* .navbar-nav {
-    position: relative;
-    right: -76%;
-    top: -9px;
-} */
 
 .mainContent {
     background-color: #ffffff;
@@ -140,7 +118,7 @@ button {
 .nav-link {
     position: absolute;
     left: 45%;
-    bottom: 7%;
+    bottom: -11%;
     cursor: pointer;
 }
 
@@ -149,7 +127,7 @@ button {
 .aboutMe-container {
     border: .1px solid;
     border-radius: 43px;
-    margin-top: 200px;
+    margin-top: 260px;
     /* background-color: #96E072; */
 }
 .aboutImage {
@@ -247,7 +225,7 @@ button {
 
 /* ----------------------------------------------------------Media-------------------------------------------------- */
 
-/* @media screen and (max-width: 990px)  {
+@media screen and (max-width: 990px)  {
     .navbar ul {
         background-color: white;
         width: 80px;
@@ -259,7 +237,7 @@ button {
         position: relative;
         right: -90%;
     }
-}         */
+}        
 
 @media screen and (max-width: 440px)  {
 
@@ -270,7 +248,7 @@ button {
     .nav-link {
         position: absolute;
         left: 28%;
-        bottom: 7%;
+        bottom: -15%;
         cursor: pointer;
     } 
 }
