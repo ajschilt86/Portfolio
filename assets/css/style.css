@@ -149,6 +149,10 @@ button {
     margin-top: 170px;
 }
 
+.portfolio-wrapper {
+    transform: translate(10%);
+}
+
 .img1 { 
     position: relative;
     height: 200px;
@@ -237,6 +241,10 @@ button {
         position: relative;
         right: -90%;
     }
+
+    .portfolio-wrapper {
+        transform: translate(0%);
+    }
 }        
 
 @media screen and (max-width: 440px)  {
@@ -251,5 +259,9 @@ button {
         bottom: -15%;
         cursor: pointer;
     } 
+
+    .portfolio-wrapper {
+        transform: translate(2%);
+    }
 }
 
