@@ -1,31 +1,30 @@
 // close the modal if escape is pressed
 $(document).keydown(function (e) {
     if (e.keyCode == 27) {
-      $(".modal").hide();
+        $(".modal").hide();
+        console.log("working")
     }
-  });
-  //close the modal if the x is clicked on
-  $("body").on("click", ".close", function () {
+});
+//close the modal if the x is clicked on
+$("body").on("click", ".close", function () {
     $(".modal").hide();
-  });
-  //close the modal if the anywhere but the modal is clicked on
-  $("body").on("click", function (event) {
+    console.log("working")
+});
+//close the modal if the anywhere but the modal is clicked on
+$(".modal-content").on("click", function (event) {
     $(".modal").hide();
-  });
+    console.log("working")
+});
 
-  $("body").on("click", ".nav-button", function () {
+$(".nav-modal").on("click", function (event) {
     $(".modal").show();
-    $(".modal-text").append("<div><a href='#aboutMe'>About Me</a></div>");
-    $(".modal-text").append("<div><a href='#projects'>Projects</a></div>");
-    $(".modal-text").append("<div><a href='#contact'>Contact</a></div>");
-  });
+    $(".modal-text").html("<div><a href='#aboutMe'>About Me</a></div>"
+    + "<div><a href='#projects'>Projects</a></div>"
+    + "<div><a href='#contact'>Contact</a></div>");
+    console.log("working")
+});
 
 
+AOS.init();
 
 
-  
-
-  $(".modal").show();
-  $(".modal-text").append("<div><a href='#aboutMe'>About Me</a></div>");
-  $(".modal-text").append("<div><a href='#projects'>Projects</a></div>");
-  $(".modal-text").append("<div><a href='#contact'>Contact</a></div>");

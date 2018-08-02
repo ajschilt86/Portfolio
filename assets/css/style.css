@@ -2,8 +2,7 @@
 .modal {
     display: none;
     position: fixed;
-    z-index: 1;
-    padding-top: 100px;
+    z-index: 3;
     left: 0;
     top: 0;
     width: 100%;
@@ -15,18 +14,23 @@
 
 .modal-content {
     position: relative;
-    top: 38%;
-    color:black;
+    /* top: 20px; */
+    font-size: 40px;
+    text-align: center;
+    color: black;
     background-color: #fefefe;
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 12%;
-    height: 132px;
+    width: 100%;
+    height: 100%;
+    opacity: .9;
 }
 
 .modal-content p {
     float:left;
+    position: relative;
+    top: 36%;
 }
 
 
@@ -50,7 +54,7 @@ header {
     border: 1px solid grey;
     border-radius: 12px;    
     height: 90px;
-    z-index: 5; 
+    z-index: 2; 
 }
 
 
