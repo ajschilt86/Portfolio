@@ -84,10 +84,9 @@ header {
 }
 
 .navbar-brand {
-    position: absolute;
-    top: -10px;
-    left: 34.5%;    
-    font-family: 'Patrick Hand', cursive;  
+    display: block;
+    margin: auto;
+    font-family: 'Patrick Hand', cursive;
     animation: bounceIn 2s;
 }
 
@@ -144,7 +143,7 @@ button {
 }
 
 .nav-link {
-    position: absolute;
+    position: relative;
     left: 45%;
     bottom: -11%;
     cursor: pointer;
