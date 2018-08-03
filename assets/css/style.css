@@ -37,17 +37,34 @@
     top: 36%;
 }
 
+.modal-link {
+    color: black;
+    text-decoration: none;
+    width: 100%;
+}
+
 .modal-link:hover{
+    transform: translateY(-10px);
+    animation: all .2s;
+}
+
+.modal-icons {
+    position: relative;
+    bottom: 10%;
+    display: flex;
+}
+
+.modal-icons:hover{
     transform: translateY(-10px);
     animation: all .2s;
 }
 
 body {
     color: black;
-    background-image: url("./assets/images/dust_scratches.png");
+    background-image: url(assets/images/dust_scratches.png);
     background-size: cover;
     /* background-color: #A3A3A3; */
-    /* background-color: #EEEEEE; */
+    background-color: #EEEEEE;
     height: 100%;
     margin: 0;
     overflow-y: scroll;
@@ -137,9 +154,9 @@ button {
 /* ------------------------------------------------------About Me------------------------------------------------- */
 .aboutMe-container {
     border: .1px solid;
-    /* border-radius: 43px; */
+    border-radius: 4px;    
+    box-shadow: 0 0 20px black;
     margin-top: 260px;
-    box-shadow: 10px 10px 20px black;
     /* background-color: #96E072; */
 }
 .aboutImage {
@@ -157,7 +174,8 @@ button {
 /* ------------------------------------------------------Portfolio-------------------------------------------------- */
 .portfolio-container {
     border: .1px solid;
-    box-shadow: 10px 10px 20px black;
+    border-radius: 4px;    
+    box-shadow: 0 0 20px black;
     margin-top: 170px;
 }
 
@@ -224,7 +242,8 @@ button {
 .contact-container {
     color: #777;
     border: .1px solid;
-    box-shadow: 10px 10px 20px black;
+    border-radius: 4px;    
+    box-shadow: 0 0 20px black;
     margin-top: 170px;
     margin-bottom: 100px;
    
