@@ -289,7 +289,7 @@ button {
 
     .portfolio-info-wrap {
         margin-bottom: 60px;
-        border: 5px solid black;
+        border-bottom: 1px solid black;
     }
 }
 
