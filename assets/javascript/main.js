@@ -28,5 +28,9 @@ $(".nav-modal").on("click", function (event) {
     console.log("working")
 });
 
+// $(".button").on("click", function (event) {
+//     event.preventDefault();
+// })
+
 
 AOS.init();
