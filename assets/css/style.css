@@ -149,7 +149,6 @@ button {
     cursor: pointer;
 }
 
-
 /* ------------------------------------------------------About Me------------------------------------------------- */
 .aboutMe-container {
     border: .1px solid;
@@ -273,6 +272,10 @@ button {
     margin-top: -45px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 12px;    
+}
+
+h6 {
+    font-size: 13px;
 }
 /* 
 .footer {    
