@@ -12,6 +12,10 @@
     background-color: rgba(0,0,0,0.4);
 }
 
+.modal-open {
+    overflow: hidden;
+}
+
 .modal-content {
     position: relative;
     /* top: 20px; */
@@ -31,6 +35,11 @@
     float:left;
     position: relative;
     top: 36%;
+}
+
+.modal-link:hover{
+    transform: translateY(-10px);
+    animation: all .2s;
 }
 
 body {
@@ -181,7 +190,7 @@ button {
     height: 200px;
     width: 275px;
     float: left;
-    margin: 0px 40px 57px 0px;    
+    margin: 0px 40px 57px 0px;
 }
 
 .img1:hover{
