@@ -220,7 +220,7 @@ button {
     color: #777;
     border: .1px solid;
     border-radius: 4px;    
-    box-shadow: 0 0 20px black;
+    box-shadow: 0 0 5px rgba(0,0,0,.4);
     margin-top: 170px;
     margin-bottom: 100px;   
 }
@@ -236,6 +236,11 @@ button {
 
 .button:hover {
     background-color: grey;    
+}
+
+[data-aos^=flip][data-aos^=flip] {
+    backface-visibility: hidden;
+    transition-property: all;
 }
 
 /* ----------------------------------------------------Footer--------------------------------------------------- */
