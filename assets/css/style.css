@@ -217,12 +217,16 @@ button {
 
 /* ------------------------------------------------------Contact-------------------------------------------------- */
 .contact-container {
-    color: #777;
+    /* color: #777;
     border: .1px solid;
     border-radius: 4px;    
     box-shadow: 0 0 5px rgba(0,0,0,.4);
-    margin-top: 170px;
+    margin-top: 170px;  */
     margin-bottom: 100px;   
+    border: .1px solid;
+    border-radius: 4px;    
+    box-shadow: 0 0 20px black;
+    margin-top: 170px;
 }
 
 .button {
@@ -245,6 +249,15 @@ button {
 
 .contactInfo {
     text-align: center;
+}
+
+/* ----------------------------------------------------Footer--------------------------------------------------- */
+
+.skills-container {
+    border: .1px solid;
+    border-radius: 4px;    
+    box-shadow: 0 0 20px black;
+    margin-top: 170px;
 }
 
 /* ----------------------------------------------------Footer--------------------------------------------------- */
